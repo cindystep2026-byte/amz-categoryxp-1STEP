@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 末级类目调研"
+  short_description: "抓取 Amazon 真正末级节点并整理 Sorftime 指标"
+  default_prompt: "Use $amazon-leaf-category-research to verify Amazon leaf categories, collect Sorftime metrics, and export an ordered bilingual workbook."
+

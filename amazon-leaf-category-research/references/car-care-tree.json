@@ -1,0 +1,453 @@
+[
+  {
+    "amazon_order": 1,
+    "group": "Automotive Pest Repellents",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Automotive Pest Repellent Mats",
+    "leaf_name_zh": "汽车驱虫垫",
+    "node_id": "23708134011"
+  },
+  {
+    "amazon_order": 2,
+    "group": "Automotive Pest Repellents",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Automotive Pest Repellent Sprays",
+    "leaf_name_zh": "汽车驱虫喷雾",
+    "node_id": "23708135011"
+  },
+  {
+    "amazon_order": 3,
+    "group": "Automotive Pest Repellents",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Automotive Ultrasonic Pest Repellents",
+    "leaf_name_zh": "汽车超声波驱虫器",
+    "node_id": "23708136011"
+  },
+  {
+    "amazon_order": 4,
+    "group": "Cleaning Kits",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Cleaning Kits",
+    "leaf_name_zh": "汽车清洁套装",
+    "node_id": "15718281"
+  },
+  {
+    "amazon_order": 5,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Automotive Bug, Sap & Tar Removers",
+    "leaf_name_zh": "汽车虫渍、树胶与焦油去除剂",
+    "node_id": "19351186011"
+  },
+  {
+    "amazon_order": 6,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Chrome & Metal Polishes",
+    "leaf_name_zh": "镀铬与金属抛光剂",
+    "node_id": "15718311"
+  },
+  {
+    "amazon_order": 7,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Waxes",
+    "leaf_name_zh": "汽车蜡",
+    "node_id": "15718371"
+  },
+  {
+    "amazon_order": 8,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Car Washing Applicators",
+    "leaf_name_zh": "洗车涂抹工具",
+    "node_id": "15718391"
+  },
+  {
+    "amazon_order": 9,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Automotive Buckets, Grit Guards & Kits",
+    "leaf_name_zh": "洗车桶、砂石隔离网与套装",
+    "node_id": "15718401"
+  },
+  {
+    "amazon_order": 10,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Cleaners",
+    "leaf_name_zh": "汽车清洁剂",
+    "node_id": "15718451"
+  },
+  {
+    "amazon_order": 11,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Car Washing Nozzles & Hose Attachments",
+    "leaf_name_zh": "洗车喷嘴与水管附件",
+    "node_id": "15718411"
+  },
+  {
+    "amazon_order": 12,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Car Washing Sponges & Mitts",
+    "leaf_name_zh": "洗车海绵与手套",
+    "node_id": "15718421"
+  },
+  {
+    "amazon_order": 13,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Waterless Car Washing Treatments",
+    "leaf_name_zh": "免水洗车剂",
+    "node_id": "15718431"
+  },
+  {
+    "amazon_order": 14,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Car Washing Windshield Squeegees",
+    "leaf_name_zh": "汽车玻璃刮水器",
+    "node_id": "15718441"
+  },
+  {
+    "amazon_order": 15,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Convertible Top Cleaners",
+    "leaf_name_zh": "敞篷车顶清洁剂",
+    "node_id": "15718461"
+  },
+  {
+    "amazon_order": 16,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Polishing & Rubbing Compounds",
+    "leaf_name_zh": "抛光与研磨剂",
+    "node_id": "15718471"
+  },
+  {
+    "amazon_order": 17,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Polishing & Waxing Kits",
+    "leaf_name_zh": "抛光与打蜡套装",
+    "node_id": "15718481"
+  },
+  {
+    "amazon_order": 18,
+    "group": "Exterior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Cleaning Water Squeegee Blades",
+    "leaf_name_zh": "清洁刮水片",
+    "node_id": "155340011"
+  },
+  {
+    "amazon_order": 19,
+    "group": "Fillers, Adhesives & Sealants",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Body Repair & Restoration Adhesives",
+    "leaf_name_zh": "车身维修与修复胶粘剂",
+    "node_id": "15718921"
+  },
+  {
+    "amazon_order": 20,
+    "group": "Fillers, Adhesives & Sealants",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Body Repair Putty",
+    "leaf_name_zh": "车身修补腻子",
+    "node_id": "3097823011"
+  },
+  {
+    "amazon_order": 21,
+    "group": "Fillers, Adhesives & Sealants",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Gasket Sealers",
+    "leaf_name_zh": "垫片密封剂",
+    "node_id": "15719581"
+  },
+  {
+    "amazon_order": 22,
+    "group": "Fillers, Adhesives & Sealants",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Radiator Sealers",
+    "leaf_name_zh": "散热器堵漏剂",
+    "node_id": "15719601"
+  },
+  {
+    "amazon_order": 23,
+    "group": "Fillers, Adhesives & Sealants",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Automotive Sealers",
+    "leaf_name_zh": "汽车密封剂",
+    "node_id": "15709931"
+  },
+  {
+    "amazon_order": 24,
+    "group": "Fillers, Adhesives & Sealants",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Silicone Sealers",
+    "leaf_name_zh": "硅酮密封剂",
+    "node_id": "15719611"
+  },
+  {
+    "amazon_order": 25,
+    "group": "Fillers, Adhesives & Sealants",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Thread Lock Sealers",
+    "leaf_name_zh": "螺纹锁固密封剂",
+    "node_id": "15719631"
+  },
+  {
+    "amazon_order": 26,
+    "group": "Finishing",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Care Corrosion & Rust Inhibitors",
+    "leaf_name_zh": "防腐蚀与防锈剂",
+    "node_id": "15718511"
+  },
+  {
+    "amazon_order": 27,
+    "group": "Finishing",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Protective Shields",
+    "leaf_name_zh": "防护遮蔽罩",
+    "node_id": "15718521"
+  },
+  {
+    "amazon_order": 28,
+    "group": "Interior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Carpet Cleaners",
+    "leaf_name_zh": "汽车地毯清洁剂",
+    "node_id": "15718551"
+  },
+  {
+    "amazon_order": 29,
+    "group": "Interior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Leather Care Products",
+    "leaf_name_zh": "汽车皮革护理产品",
+    "node_id": "15718561"
+  },
+  {
+    "amazon_order": 30,
+    "group": "Interior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Automotive Plastic Care Products",
+    "leaf_name_zh": "汽车塑料护理产品",
+    "node_id": "15718581"
+  },
+  {
+    "amazon_order": 31,
+    "group": "Interior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Automotive Rubber Care Products",
+    "leaf_name_zh": "汽车橡胶护理产品",
+    "node_id": "15718591"
+  },
+  {
+    "amazon_order": 32,
+    "group": "Interior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Automotive Vinyl Care Products",
+    "leaf_name_zh": "汽车乙烯基护理产品",
+    "node_id": "15718601"
+  },
+  {
+    "amazon_order": 33,
+    "group": "Interior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Automotive Upholstery Care Products",
+    "leaf_name_zh": "汽车内饰织物护理产品",
+    "node_id": "15718611"
+  },
+  {
+    "amazon_order": 34,
+    "group": "Interior Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Vacuums",
+    "leaf_name_zh": "车载吸尘器",
+    "node_id": "15718621"
+  },
+  {
+    "amazon_order": 35,
+    "group": "Solvents",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Solvents",
+    "leaf_name_zh": "汽车溶剂",
+    "node_id": "15718631"
+  },
+  {
+    "amazon_order": 36,
+    "group": "Tire & Wheel Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Tire Pens",
+    "leaf_name_zh": "轮胎标记笔",
+    "node_id": "23873693011"
+  },
+  {
+    "amazon_order": 37,
+    "group": "Tire & Wheel Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Automotive Wheel Care",
+    "leaf_name_zh": "汽车轮毂护理产品",
+    "node_id": "2687787011"
+  },
+  {
+    "amazon_order": 38,
+    "group": "Tools & Equipment",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Air Dryers, Blowers & Blades",
+    "leaf_name_zh": "汽车吹水机、鼓风机与刮水片",
+    "node_id": "15718661"
+  },
+  {
+    "amazon_order": 39,
+    "group": "Tools & Equipment",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Cleaning Brushes & Dusters",
+    "leaf_name_zh": "清洁刷与除尘掸",
+    "node_id": "15718671"
+  },
+  {
+    "amazon_order": 40,
+    "group": "Tools & Equipment",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Exterior Car Care Chamois Cloths",
+    "leaf_name_zh": "汽车外饰麂皮布",
+    "node_id": "15718691"
+  },
+  {
+    "amazon_order": 41,
+    "group": "Tools & Equipment",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Exterior Car Care Microfiber Cloths",
+    "leaf_name_zh": "汽车外饰超细纤维布",
+    "node_id": "15718721"
+  },
+  {
+    "amazon_order": 42,
+    "group": "Tools & Equipment",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Detailing Tools",
+    "leaf_name_zh": "汽车精洗工具",
+    "node_id": "15718731"
+  },
+  {
+    "amazon_order": 43,
+    "group": "Tools & Equipment",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Cleaning Drying Mitts",
+    "leaf_name_zh": "清洁干燥手套",
+    "node_id": "15718701"
+  },
+  {
+    "amazon_order": 44,
+    "group": "Tools & Equipment",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Drying Pads",
+    "leaf_name_zh": "吸水干燥垫",
+    "node_id": "15718711"
+  },
+  {
+    "amazon_order": 45,
+    "group": "Tools & Equipment",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Buffer & Polishing Backing Plates",
+    "leaf_name_zh": "抛光机托盘与背板",
+    "node_id": "15718751"
+  },
+  {
+    "amazon_order": 46,
+    "group": "Tools & Equipment",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Body Repair Buffing & Polishing Pads",
+    "leaf_name_zh": "车身修复抛光垫",
+    "node_id": "15707091"
+  },
+  {
+    "amazon_order": 47,
+    "group": "Undercoatings",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Undercoatings",
+    "leaf_name_zh": "汽车底盘涂层",
+    "node_id": "15718781"
+  },
+  {
+    "amazon_order": 48,
+    "group": "Window Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Water Repellent Coatings",
+    "leaf_name_zh": "车窗防水涂层",
+    "node_id": "219646390011"
+  },
+  {
+    "amazon_order": 49,
+    "group": "Window Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Window Cleaners",
+    "leaf_name_zh": "汽车玻璃清洁剂",
+    "node_id": "219646388011"
+  },
+  {
+    "amazon_order": 50,
+    "group": "Window Care",
+    "level1": "Automotive",
+    "level2": "Car Care",
+    "leaf_name": "Window Cleaning Polishes",
+    "leaf_name_zh": "汽车玻璃抛光剂",
+    "node_id": "219646389011"
+  }
+]
+
