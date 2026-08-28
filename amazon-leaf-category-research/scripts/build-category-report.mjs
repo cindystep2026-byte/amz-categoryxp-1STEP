@@ -3,8 +3,8 @@ import path from "node:path";
 import { Workbook, SpreadsheetFile } from "@oai/artifact-tool";
 
 const args = Object.fromEntries(process.argv.slice(2).reduce((a,v,i,x)=>{if(v.startsWith("--")) a.push([v.slice(2),x[i+1]]); return a;},[]));
-if (!args.metrics || !args.tree || !args.output) {
-  throw new Error("Usage: node build-category-report.mjs --metrics <csv> --tree <json> --output <xlsx> [--root-name <name>] [--marketplace-domain www.amazon.com] [--department-slug automotive]");
+if (!args.metrics || !args["apify-sales"] || !args.tree || !args.output) {
+  throw new Error("Usage: node build-category-report.mjs --metrics <csv> --apify-sales <json> --tree <json> --output <xlsx> [--root-name <name>] [--marketplace-domain www.amazon.com] [--department-slug automotive]");
 }
 const parseCsvLine = (s) => [...s.matchAll(/"((?:[^"]|"")*)"(?:,|$)/g)].map(m => m[1].replaceAll('""','"'));
 const csvLines = (await fs.readFile(args.metrics, "utf8")).trim().split(/\r?\n/);
@@ -12,6 +12,10 @@ const matrix = csvLines.map(parseCsvLine);
 const headers = matrix[0];
 const records = matrix.slice(1).map(row => Object.fromEntries(headers.map((h,i)=>[h,row[i] ?? ""])));
 const byNode = new Map(records.map(r => [String(r["Amazon Node ID"]), r]));
+const apifyPayload = JSON.parse(await fs.readFile(args["apify-sales"], "utf8"));
+const apifyRecords = Array.isArray(apifyPayload) ? apifyPayload : apifyPayload.nodes;
+if (!Array.isArray(apifyRecords)) throw new Error("apify-family-sales.json 必须是数组或包含 nodes 数组");
+const apifyByNode = new Map(apifyRecords.map(r => [String(r["Amazon Node ID"] ?? r.node_id), r]));
 const tree = JSON.parse(await fs.readFile(args.tree, "utf8"));
 if (!Array.isArray(tree) || tree.length === 0) throw new Error("tree.json 必须包含至少一个末级节点");
 const rootName=args["root-name"] || tree[0].root_name || tree[0].level2 || tree[0].level1 || "根类目";
@@ -28,12 +32,17 @@ tree.forEach((x,i) => {
 });
 
 const metricNames=["TOP100 Sales","Top 1 Sales","Top 2 Sales","Top 3 Sales","4 星及以上商品销量占比","近 30 天类目退货率"];
-const columns=["Amazon顺序",`${rootName} 下一级分组`,"一级类目","二级类目","末级节点","末级节点中文翻译","Amazon Node ID","Amazon末级类目直达链接",...metricNames,"Sorftime状态"];
+const columns=["Amazon顺序",`${rootName} 下一级分组`,"一级类目","二级类目","末级节点","末级节点中文翻译","Amazon Node ID","Amazon末级类目直达链接",...metricNames,"数据状态"];
 const rows=[columns];
 for (const x of tree) {
   const r=byNode.get(String(x.node_id));
-  const values=r ? metricNames.map(k=>r[k] || "N/A") : metricNames.map(()=>"N/A");
-  const status=r?.["Sorftime状态"] || "暂无相关数据";
+  const a=apifyByNode.get(String(x.node_id));
+  const familySales=[1,2,3].map(rank => {
+    const family=a?.families?.[rank-1];
+    return Number.isFinite(family?.sales_lower_bound) ? family.sales_lower_bound : "N/A";
+  });
+  const values=r ? [r["TOP100 Sales"] || "N/A",...familySales,r["4 星及以上商品销量占比"] || "N/A",r["近 30 天类目退货率"] || "N/A"] : ["N/A",...familySales,"N/A","N/A"];
+  const status=`${r?.["Sorftime状态"] || "Sorftime暂无相关数据"}; ${a?.status || "Apify暂无相关数据"}`;
   rows.push([x.amazon_order,x.group,x.level1,x.level2,x.leaf_name,x.leaf_name_zh,String(x.node_id),"",...values,status]);
 }
 
