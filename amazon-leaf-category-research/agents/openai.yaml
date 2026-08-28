@@ -1,4 +1,4 @@
 interface:
   display_name: "Amazon 末级类目调研"
-  short_description: "末级类目、Sorftime 指标与 Apify 父体月销量汇总"
-  default_prompt: "Use $amazon-leaf-category-research to verify Amazon leaf categories, combine Sorftime metrics with Apify Top 1–Top 3 variant-family monthly purchases, and export an ordered bilingual workbook."
+  short_description: "实时 Best Sellers Top 3 父体月销与 Sorftime 类目指标"
+  default_prompt: "Use $amazon-leaf-category-research to verify Amazon leaf categories, capture live Best Sellers Top 1–Top 3 distinct families with Apify, sum every child ASIN monthly-purchase label, and export an ordered bilingual workbook."
